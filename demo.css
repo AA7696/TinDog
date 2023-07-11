@@ -1,0 +1,165 @@
+#title{
+    background-color: #FF6363;
+    max-height: 80vh;
+}
+.main-head{
+    background-color: #FF6363;
+    max-height: 20vh;
+}
+/*font-family: 'Montserrat', sans-serif;  font-family: 'Ubuntu', sans-serif;*/
+#main-headcont{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.5rem;
+}
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 30px;
+    
+
+}
+.btn{
+    margin-left: 16px;
+}
+#features{
+    padding: 4% 15% ;
+    background-color: white;
+    position: relative;
+    
+    
+
+
+}
+.column{
+    text-align: center;
+    padding: 5%;
+   margin-bottom: 60px;
+}
+.column h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+
+}
+.column p {
+    color: #3e3909;
+}
+
+.icon{
+    color: #ef8172;
+    line-height: 1.5;
+}
+.icon:hover {
+    color: #c11b1b;
+}
+
+
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+}
+.dog{
+    width: 90px;
+    border-radius: 50%;
+    margin: 28px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+#press img {
+    margin-left: 4%;
+}
+/*.card-deck{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    margin-left: 5%;
+    width: 250px;
+}*/
+.my-btn{
+    width: 100%;
+    margin-left: 0;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+    
+}
+@media screen and (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .title-img{
+        margin-top: 3%;
+    }
+    
+}
+
+#cta{
+ background-color: #ff4c68;   
+ text-align: center;
+ padding: 7% 15%;
+}
+
+.cta-btn{
+    margin-top: 2%;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.cta-icons{
+    margin-left: 2%;
+}
+#footer p {
+    margin-top: 2%;
+}
